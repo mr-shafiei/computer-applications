@@ -1,18 +1,17 @@
 ---
-layout:     course-front-page
-title:      Exploring Computer Science
-subtitle:   SY 2014-2015 (Spring Semester)
+layout: course-front-page
+title:  Computer Applications
+subtitle:  SY 2014-2015 (Spring Semester)
 ---
 
 
-
-## Welcome ##
-
-
-Welcome to class!  
+##Welcome##
 
 
-## Upcoming Events ##
+Welcome to class!
+
+
+##Upcoming Events##
 
 
 Will be updated soon.
