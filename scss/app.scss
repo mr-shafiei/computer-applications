@@ -1,0 +1,41 @@
+@import "settings";
+@import "foundation";
+
+
+@import "typography";
+@import "layouts";
+
+
+$side-nav-link-color: $primary-color;
+$side-nav-link-color-active: scale-color($side-nav-link-color, $lightness: 30%);
+
+.side-nav li {
+  margin-bottom:0;
+}
+.side-nav li.active {
+  background: $tertiary-color;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  padding: 2em 0;
+  overflow: hidden; // Hide overflow to contain the background
+}
+  .hero__background {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    width: 200%;
+    // Where the magic happens
+    -webkit-filter: blur(100px);
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  .hero__title {
+    position: relative;
+    text-align: center;
+    font-size: 5em;
+    color: white;
+  }
+
+

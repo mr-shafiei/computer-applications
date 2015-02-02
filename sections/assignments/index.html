@@ -1,0 +1,54 @@
+---
+title: Assignments
+---
+
+<table>
+    <thead>
+        <tr>
+        <th>
+        </th>
+        <th>
+            Assignment
+        </th>
+        <th>
+            Posted On
+        </th>
+        <th>
+            Type
+        </th>
+        <th>
+            Due Date
+        </th>
+        <th>
+            How To Turn In
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+{% for post in site.categories['assignments'] %}
+    <tr>
+        <td>
+            {{ forloop.index }}
+        </td>
+
+        <td>
+            <a href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a>
+        </td>
+        <td>
+            <small>{{post.date | date: "%b %d, %Y" }}</small>
+        </td>
+        <td>
+            {{ post.type }}
+        </td>
+        <td>
+            <strong>{{post.due-date | date: "%b %d, %Y"}}</strong>
+        </td>
+        <td>
+            {{ post.submission }}
+        </td>
+    </tr>
+{% endfor %}
+
+
+</tbody>
+</table>

@@ -1,0 +1,41 @@
+baseurl: "/computer-applications"
+defaults: 
+  - 
+    scope: 
+      path: ""
+    values: 
+      layout: course-single-column
+  - 
+    scope: 
+      path: sections/calendar
+      type: posts
+    values: 
+      layout: course-calendar-post
+description: "Computer Applications.  Mr. Shafiei - Spring 2015\n"
+excerpt_separator: "\n\n"
+highlighter: pygments
+kramdown: 
+  input: GFM
+lsi: false
+markdown: redcarpet
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+name: "Computer Applications"
+permalink: pretty
+redcarpet: 
+  extensions: 
+    - hard_wrap
+    - no_intra_emphasis
+    - fenced_code_blocks
+    - autolink
+    - tables
+    - with_toc_data
+    - strikethrough
+    - superscript
+
+
+
+collections:
+  - assignments
+
+
+
