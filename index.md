@@ -1,6 +1,6 @@
 ---
 layout:     course-front-page
-title:      Exploring Computer Science
+title:      Computer Applications
 subtitle:   SY 2014-2015 (Spring Semester)
 ---
 
@@ -9,10 +9,6 @@ subtitle:   SY 2014-2015 (Spring Semester)
 ## Welcome ##
 
 
-Welcome to class!  
+Archive of Computer Applications Course (Spring 2015 @ Bell HS)
 
-
-## Upcoming Events ##
-
-
-Will be updated soon.
+*Note, this site wasn't used to great extent during this course*
